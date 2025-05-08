@@ -1,0 +1,152 @@
+<!DOCTYPE html> <!-- This is a special string, known as a declaration. It tells the browser that this document is an HTML5 document. -->
+<html lang="en"> <!-- This tells the browser that the language of the page is specifically in english. -->
+<html> <!-- This element is the root element of an HTML page and wraps all content on the page. -->
+	<head> <!-- This element is used to contain metadata about the document, such as its title, links to stylesheets, and scripts. Metadata is information about the page that isn't displayed directly on the page. -->
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Get your Driving Licence!</title> <!-- This element determines what browsers show in the title bar or tab for the page. -->
+		<link href="styles.css" rel="stylesheet">
+	</head>
+	<body> <!-- All page content elements that should be rendered to the page go inside this element. -->
+			<main> <!-- HTML has elements that identify different content areas. These elements makes HTML easier to read and helps with search engine optimization (SEO).This element represents the main content of the body of an HTML document. Contents inside this element should be unique to the document and shouldn't be repeated in other parts of the document. -->  
+				<div class="h1banner">
+				<h1>Driving Licence Quiz</h1> <!-- This is a heading element, h1 through h6 elements are used to signify the importance of contents below them. The lower the number the higher of importance. -->
+				</div>
+				<section> <!-- This element is like a container that helps organize a webpage into meaningful parts.It is used to group related content together. It makes a webpage easier to read for both users and search engines, improving SEO and accessibility. -->
+					<h2>CONTENTS</h2>
+					<ol> <!-- Used to make a list that is in an order. -->
+						<li>Introduction</li> <!-- Used to make a list. -->
+						<li>The Human Element</li>
+						<li>The Car</li>
+						<li>The Road and its environsment</li>
+						<li>Basic rules for road users</li>
+						<li>Observing</li>
+						<li>Signs and signals</li>
+						<li>Adapting speed</li>
+						<li>Position on the road</li>
+						<li>Giving way</li>
+						<li>Reversing and turning around</li>
+						<li>Standing and Parking</li>
+						<li>The hazards of driving</li>
+						<li>Night driving</li>
+						<li>Level crossings</li>
+						<li>Motorways</li>
+						<li>Overtaking</li>
+						<li>Large vehicles, motorcycles and mopeds</li>
+						<li>The driver's responibilities</li>
+						<li>Key to answers</li>
+					</ol>
+					<h2>HOW TO USE THIS SITE:</h2>
+					<p>After your instructor has dealt with a subject and you have read carefully about it in the text book, the time has come for you to test yourself by taking this mocked quiz!. There may be more than one correct answer 😉.</p> <!-- Used to make a paragraph. -->			
+				</section>
+				<section>
+					<h2>INTRODUCTION</h2>
+					<form action=""> <!-- Dictates where a form should be sent once submitted.. --> 
+					<fieldset> <!-- Creates a box around related form elements. -->
+						<legend>1. Which rules apply to private practice driving with a car?</legend> <!-- Provides a title to the fieldset. -->
+						<!-- INPUT is used to create form fields where users can enter data. It's a self-closing tag and has different types for different inputs. -->
+						<!--LABEL is used to associate a text with an INPUT. It providess a clickable text for an INPUT field.-->
+						<input id="q1c1" type="checkbox" name="1q1" value="q1c1"><label for="q1c1">It is forbidden to have passengers.</label><br> 
+						<input id="q1c2" type="checkbox" name="1q1" value="q1c2"><label for="q1c2">The learner must have reached 16 years of age.</label><br>
+						<input id="q1c3" type="checkbox" name="1q1" value="q1c3"><label for="q1c3">It is forbidden in most cities.</label><br>
+						<input id="q1c4" type="checkbox" name="1q1" value="q1c4"><label for="q1c4">The car must be fitted with an additional mirror for the companion, and the parking brake must be located where it can be easily reached by the companion.</label><br>
+						<input id="q1c5" type="checkbox" name="1q1" value="q1c5"><label for="q1c5">The companion must be at least 25 years of age and must have been in the continuous possession of a driving license for the past 5 years.</label><br>
+						<input id="q1c6" type="checkbox" name="1q1" value="q1c6"><label for="q1c6">The car must display an L-plate.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>2. Why may a person be barred from obtaining a driver's license?</legend>
+						<input id="q2c1" type="checkbox" name="1q2" value="q2c1"><label for="q2c1">To emphasize that drivers must be responsible and law-abiding.</label><br>
+						<input id="q2c2" type="checkbox" name="1q2" value="q2c2"><label for="q2c2">To limit the number of driver's licences.</label><br>
+						<input id="q2c3" type="checkbox" name="1q2" value="q2c3"><label for="q2c3">To provide the person with time for training.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>3. Is a person who has been barred from obtaining a driver's license allowed to practice driving?</legend>
+						<input id="q3c1" type="checkbox" name="1q3" value="q3c1"><label for="q3c1">No, not as a general rule.</label><br>
+						<input id="q3c2" type="checkbox" name="1q3" value="q3c2"><label for="q3c2">Yes</label><br>
+						<input id="q3c3" type="checkbox" name="1q3" value="q3c3"><label for="q3c3">Yes, provided that the police have given permission.</label><br>
+						<input id="q3c4" type="checkbox" name="1q3" value="q3c4"><label for="q3c4">Only on private grounds.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>4. What is the maximum permitted total weight for a motor vehicle and a trailer that a holder of a Class B driver's license may drive?</legend>
+						<input id="q4c1" type="checkbox" name="1q4" value="q4c1"><label for="q4c1">Up to 2500 kg.</label><br>
+						<input id="q4c2" type="checkbox" name="1q4" value="q4c2"><label for="q4c2">Up to 4250 kg.</label><br>
+						<input id="q4c3" type="checkbox" name="1q4" value="q4c3"><label for="q4c3">Up to 5500 kg.</label><br>
+						<input id="q4c4" type="checkbox" name="1q4" value="q4c4"><label for="q4c4">Up to 7500 kg.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>5. What is the maximum permitted total weight for a motor vehicle that a holder of a Class B driver's license may drive?</legend>
+						<input id="q5c1" type="checkbox" name="1q5" value="q5c1"><label for="q5c1">Up to 2000 kg.</label><br>
+						<input id="q5c2" type="checkbox" name="1q5" value="q5c2"><label for="q5c2">Up to 3500 kg.</label><br>
+						<input id="q5c3" type="checkbox" name="1q5" value="q5c3"><label for="q5c3">Up to 4250 kg.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>6. Which vehicle(s) may be driven by the holder of Class B driver's license?</legend>
+						<input id="q6c1" type="checkbox" name="1q6" value="q6c1"><label for="q6c1">Light motorcycle.</label><br>
+						<input id="q6c2" type="checkbox" name="1q6" value="q6c2"><label for="q6c2">Minibus.</label><br>
+						<input id="q6c3" type="checkbox" name="1q6" value="q6c3"><label for="q6c3">Tractor.</label><br>
+						<input id="q6c4" type="checkbox" name="1q6" value="q6c4"><label for="q6c4">Full-track motorcycle (snow scooter).</label><br>
+	 				</fieldset>
+					<fieldset>
+						<legend>7. Is a Class B driver's license valid for lorries?</legend>
+						<input id="q7c1" type="checkbox" name="1q7" value="q7c1"><label for="q7c1">Yes, but only in Norway and only when the permitted total weight does not exceed 7500 kg.</label><br>
+						<input id="q7c2" type="checkbox" name="1q7" value="q7c2"><label for="q7c2">No.</label><br>
+						<input id="q7c3" type="checkbox" name="1q7" value="q7c3"><label for="q7c3">Yes, when the permitted total weight does not exceed 8000 kg.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>8. Where is private practice driving permissible?</legend>
+						<input id="q8c1" type="checkbox" name="1q8" value="q8c1"><label for="q8c1">Everywhere.</label><br>
+						<input id="q8c2" type="checkbox" name="1q8" value="q8c2"><label for="q8c2">Everywhere except on motorways.</label><br>
+						<input id="q8c3" type="checkbox" name="1q8" value="q8c3"><label for="q8c3">Everywhere except where forbidden by the police.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>9. Who is considered to be the driver during practice driving?</legend>
+						<input id="q9c1" type="checkbox" name="1q9" value="q9c1"><label for="q9c1">The learner.</label><br>
+						<input id="q9c2" type="checkbox" name="1q9" value="q9c2"><label for="q9c2">The instructor.</label><br>
+						<input id="q9c3" type="checkbox" name="1q9" value="q9c3"><label for="q9c3">The learner and the in the instructor together.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>10. How many people are injured and killed in the road every year?</legend> 
+						<input id="q10c1" type="checkbox" name="1q10" value="q10c1"><label for="q10c1">About 1,200.</label><br>
+						<input id="q10c2" type="checkbox" name="1q10" value="q10c2"><label for="q10c2">About 12,000.</label><br>
+						<input id="q10c3" type="checkbox" name="1q10" value="q10c2"><label for="q10c3">About 24,000.</label><br>
+						<input id="q10c4" type="checkbox" name="1q10" value="q10c4"><label for="q10c4">About 34,000.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>11. What iss the mosst important objective or driver training?</legend>
+						<input id="q11c1" type="checkbox" name="1q11" value="q11c1"><label for="q11c1">To learn safe and environtment-friendly driving in compliance with rules and regulation.</label><br>
+						<input id="q11c2" type="checkbox" name="1q11" value="q11c2"><label for="q11c2">To gain insight into the car's construction and operation.</label><br>
+						<input id="q11c3" type="checkbox" name="1q11" value="q11c3"><label for="q11c3">To learn the skill of controlling the car.</label><br>
+						<input id="q11c4" type="checkbox" name="1q11" value="q11c4"><label for="q11c4">to obtain a driver's license cheaply and quickly.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>12. What is the most important to avoid accidents?</legend>
+						<input id="q12c1" type="checkbox" name="1q12" value="q12c1"><label for="q12c1">To observe the speed limits.</label><br>
+						<input id="q12c2" type="checkbox" name="1q12" value="q12c2"><label for="q12c2">To be concious of the risks and think ahead.</label><br>
+						<input id="q12c3" type="checkbox" name="1q12" value="q12c3"><label for="q12c3">To able to perform emergency braking and evasive steering and to control skids.</label><br>
+						<input id="q12c4" type="checkbox" name="1q12" value="q12c4"><label for="q12c4">To have had plenty of driving practice.</label><br>
+						<input id="q12c5" type="checkbox" name="1q12" value="q12c5"><label for="q12c5">To react quickly.</label><br> 
+					</fieldset><br>
+					<fieldset>
+						<legend>13. Does the Road Traffic Act apply on private property?</legend>
+						<input id="q13c1" type="checkbox" name="1q13" value="q13c1"><label for="q13c1">No.</label><br>
+						<input id="q13c2" type="checkbox" name="1q13" value="q13c2"><label for="q13c2">Yes.</label><br>
+						<input id="q13c3" type="checkbox" name="1q13" value="q13c3"><label for="q13c3">Only when the area is open to regular traffic.</label><br>
+						<input id="q13c4" type="checkbox" name="1q13" value="q13c4"><label for="q13c4">The Road Traffic Act applies only on public roads.</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>14. Do the Traffic Rules apply on private property?</legend>
+						<input id="q14c1" type="checkbox" name="1q14" value="q14c1"><label for="q14c1">Yes.</label><br>
+						<input id="q14c2" type="checkbox" name="1q14" value="q14c2"><label for="q14c2">No.</label><br>
+						<input id="q14c3" type="checkbox" name="1q14" value="q14c3"><label for="q14c3">Only when the area is open to regular traffic.</label><br>
+					</fiedlset>
+				</section>
+			</main>
+			<hr>
+			<footer>
+				<p><a href="https://ntsf.no/">© The National Association of Licenced Driving Schools</a></p>
+			</footer>
+	</body>
+</html>
+
+
+
